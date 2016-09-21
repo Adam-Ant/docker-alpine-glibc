@@ -3,7 +3,7 @@ MAINTAINER Adam Dodman <adam.dodman@gmx.com>
 
 ENV DESTDIR="/glibc"
 ENV GLIBC_LIBRARY_PATH="$DESTDIR/lib" DEBS="libc6 libgcc1 libstdc++6"
-ENV LD_LIBRARY_PATH="$GLIBC_LIBRARY_PATH" GLIBC_LD_LINUX_SO="$GLIBC_LIBRARY_PATH/ld-linux-x86-64.so.2"
+ENV GLIBC_LD_LINUX_SO="$GLIBC_LIBRARY_PATH/ld-linux-x86-64.so.2"
 
 WORKDIR /tmp
 
