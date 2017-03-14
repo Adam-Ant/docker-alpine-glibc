@@ -9,7 +9,6 @@ WORKDIR /tmp
 
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories \
  && apk add --no-cache xz binutils patchelf \
-
  && wget http://ftp.debian.org/debian/pool/main/g/glibc/libc6_2.24-9_amd64.deb \
  && wget http://ftp.debian.org/debian/pool/main/g/gcc-4.9/libgcc1_4.9.2-10_amd64.deb \
  && wget http://ftp.debian.org/debian/pool/main/g/gcc-4.9/libstdc++6_4.9.2-10_amd64.deb \

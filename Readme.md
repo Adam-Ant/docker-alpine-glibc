@@ -10,7 +10,7 @@ To make programs use the glibc libraries instead of the musl ones, patchelf must
 
 It is recommended that any programs that require glibc are placed in the ```/glibc``` folder, as this increases the odds that the program will detect and load the glibc libraries, rather than the built in musl libraries.
 
-For an example implementation of this container see my [Plex Media server container](https://github.com/Adam-Ant/alpine-plexmediaserver) (adamant/alpine-plex on Docker hub)
+For an example implementation of this container see my [Plex Media server container](https://github.com/Adam-Ant/alpine-plexmediaserver) ([adamant/alpine-plex on Docker hub](https://hub.docker.com/r/adamant/alpine-plex/))
 
 ## Environment Variables
 To make building applications using this container easier, it comes with some environment varaibles pre-configured. These are:
