@@ -1,3 +1,6 @@
+# Deprecated 
+## This dockerfile has been replaced by better things. Please check out [Spritsail/busybox](https://giithub.com/spritsail/busbox) for the smallest glibc base image available
+
 Alpine glibc
 ===
 A very small Alpine linux base image for programs that require glibc. Total size is 9.914MB, one of the smallest containers to feature a fully functional glibc implementation!
