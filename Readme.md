@@ -1,5 +1,5 @@
 # Deprecated 
-## This dockerfile has been replaced by better things. Please check out [Spritsail/busybox](https://giithub.com/spritsail/busbox) for the smallest glibc base image available
+## This dockerfile has been replaced by better things. Please check out [Spritsail/busybox](https://github.com/spritsail/busybox) for the smallest glibc base image available
 
 Alpine glibc
 ===
